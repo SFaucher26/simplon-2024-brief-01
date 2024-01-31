@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm install`
 
 Install all dependencies needed to run the project.\
-In development process, this is most often followed by `npm start`
+In development process, this is mon
 
 ### `npm start`
 
