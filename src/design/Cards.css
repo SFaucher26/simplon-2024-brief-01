@@ -1,0 +1,69 @@
+section.prices, section.features{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.abonnements, section.features > .feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.abonnement, section.features .feature-container .feature {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.abonnement{
+  width: 25%;
+  padding: 10px;
+  background-color: #007BFF;
+}
+
+section.features .feature-container .feature{
+  flex-basis: calc(33.333% - 20px);
+  padding: 20px;
+}
+
+.abonnement > h3, p{
+  color: white;
+}
+
+.btn{
+border-radius: 10px;
+padding: 10px;
+border-color: white;
+background-color: #007BFF;
+color: white;   
+}
+.btn:hover{
+display: inline-block;
+padding: 10px 30px;
+background-color: #007bff;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+/* Media Queries */
+
+/* Pour les écrans jusqu'à 900px de large */
+@media (max-width: 900px) {
+    section.prices .abonnements .abonnement 
+    section.features .feature-container .feature
+    {
+        flex-basis: calc(50% - 20px); /* Ajustez le 20px si votre gap est différent */
+    }
+  }
+  
+  /* Pour les écrans jusqu'à 600px de large */
+  @media (max-width: 600px) {
+    section.features .feature-container .feature
+    section.prices .abonnements .abonnement {
+        flex-basis: 100%;
+    }
+  }

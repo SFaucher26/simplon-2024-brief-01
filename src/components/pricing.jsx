@@ -1,5 +1,6 @@
 import React from 'react';
-import '../design/Pricing.css';
+import '../design/Cards.css';
+
 
 
 export default function Pricing() {
@@ -12,6 +13,7 @@ export default function Pricing() {
                 <p>Nom de domaine gratuit</p>
                 <p>Migration assistée</p>
                 <p><strong>2,50 € / mois </strong></p>
+                <button className="btn">Commander </button>
             </div>
             <div className="abonnement" >
                 <h3>CONFORT</h3>
@@ -19,18 +21,20 @@ export default function Pricing() {
                 <p>Migration assistée</p>
                 <p>Assistance 24/24 - 7/7</p>
                 <p><strong>10€ / mois</strong></p>
+                <button className="btn">Commander </button>
             </div>
             <div className="abonnement">
                 <h3>PREMIUM</h3>
                 <p>Nom de domaine + SSL gratuit </p>
                 <p>Migration assistée</p>
                 <p>Assistance 24/24 - 7/7</p>
-                <p><strong>15€ / mois </strong></p>
+                <p ><strong>15€ / mois </strong></p>
+                <button className="btn">Commander </button>
             </div>
             </div>
         </section>
     )
 
-
+    
 
 }

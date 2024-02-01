@@ -1,5 +1,6 @@
 import React from 'react';
-import '../design/Features.css';
+import '../design/Cards.css';
+
 
 export default function Features() {
   return (
